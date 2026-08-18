@@ -1,5 +1,4 @@
 from random import randint
-
 # Новый импорт.
 # Из модуля start_game_banner, который расположен в папке graphic_arts,
 # импортируем функцию run_screensaver().
@@ -92,7 +91,7 @@ def choice_char_class() -> str:
 
 
 def main():
-     """Main module""" 
+    """Main module"""
     if __name__ == '__main__':
         run_screensaver()
         print('Приветствую тебя, искатель приключений!')
